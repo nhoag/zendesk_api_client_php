@@ -15,6 +15,7 @@ class Views extends ResourceAbstract
     use Defaults {
         findAll as traitFindAll;
     }
+    use \Zendesk\API\Traits\Resource\Search;
 
     /**
      * {@inheritdoc}
